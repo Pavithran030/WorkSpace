@@ -1,0 +1,22 @@
+.marks{
+    background-color: rgb(91, 91, 242);
+    color: pink;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    cursor:pointer;
+    margin-right: 20px;
+  }
+
+  .rims{
+    background-color: white;
+    color: rgb(95, 229, 234);
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border-color: lightblue;
+    border-width: 2px;
+    border-style:double;
+    font-size: 15;
+  }

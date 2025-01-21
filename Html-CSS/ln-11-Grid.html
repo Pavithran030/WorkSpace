@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+        <style>
+        .gir{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr; /*1fr mean s takek the full remainning space*/
+            column-gap: 30px;
+            row-gap: 20px;
+            height: 400px;
+        }
+        @media(max-width:500px)
+        {
+            .gir{
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <div class="gir">
+            <div style="background-color: red;">Car 1</div>
+            <div style="background-color: pink;">Car 2</div>
+            <div style="background-color: lightblue;">Car 3</div>
+            <div style="background-color: green;">Car 4</div>
+            <div style="background-color: pink;">Car 5</div>
+            <div style="background-color: lightblue;">Car 6</div>
+        </div>
+
+        <!-- <div style="
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 5px;
+            ">
+            <div style="background-color: red;">Car 1</div>
+            <div style="background-color: pink;">Car 2</div>
+            <div style="background-color: lightblue;">Car 2</div>
+            <div style="background-color: green;">Car 2</div>
+        </div> -->
+    </body>
+</html>
